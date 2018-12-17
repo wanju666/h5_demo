@@ -1,0 +1,314 @@
+@charset "utf-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, figure,figcaption,img { margin:0; padding:0; }
+h1,h2,h3,h4,h5,h6{font-size: 16px;font-weight: normal;}
+ul ol li{list-style: none}
+a,u{text-decoration: none}
+img{display: block;}
+b,strong{font-weight: normal;}
+html{height: 100%;}
+
+body{
+    height: 100%;
+    background-color: lightyellow;
+}
+.box{
+    height: 100%;
+    z-index: 20;
+}
+.box .swiper-wrapper{
+    width: 640px;
+    height: 938px;
+
+    margin: 0 auto;
+}
+.box .page{
+    width: 100%;height: 100%;overflow: hidden;
+}
+.box .page1{
+    position: relative;
+    background-color: #fff;
+}
+.box .page1 h1{   
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    z-index: 999;
+    margin: 0;
+}
+.box .page1 h1 img{
+    width: 204px;height: 41px;
+}
+.box .music_btn{
+    position: absolute;
+    background: url(../images/musicBtn.png) 50% 50% no-repeat;
+    padding: 50px;
+    z-index: 999;
+    right: 0;
+    top: 0;
+}
+.box .music_btn_off{
+    position: absolute;
+    background: url(../images/musicBtnOff.png) 50% 50% no-repeat;
+    padding: 50px;
+    z-index: 999;
+    right: 0;
+    top: 0;
+}
+
+.box .page1 .snacky{
+    width: 100%;
+    height: 797px;
+    position: absolute;
+    top:15%;
+    z-index: 1;
+}
+.box .page1 .snacky img{
+    width: 100%;
+    height: 100%;
+}
+.box .page1 .txt{
+    z-index: 9;
+    width: 385px;
+    height: 141px;
+    position: absolute;
+    top:42%;
+    left:25%;
+}
+.box .page1 .txt .abs{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.box .page1 .txt .abs img{
+    position: relative;
+    width: 358px;
+    height: 139px;
+}
+/* @keyframes move{
+    0%{transform: translate(0,0)}
+    100%{transform:translate(100%,0)}
+} */
+.box .page1 .house{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    /* animation: move 15s infinite linear; */
+}
+@keyframes house-ani{
+    0%{transform: translate(0,0)}
+    100%{transform:translate(100%,0)}
+}
+.myAni{
+    animation-name: house-ani;
+}
+.page1 .bgmove0{left:-100%;}
+
+.ui-up-arrow{
+    width: 38px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: 0 auto;
+    z-index: 11;
+    opacity: 0.8;
+}
+.ui-up-arrow img{
+    width: 100%;
+}
+/* page2 */
+ .box .page2{   
+    position: relative;
+    background: rgb(254, 101, 122);
+
+}
+.txtleft{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    z-index: 9;
+    width: 142px;
+    height: 248px;
+}
+.txtleft img{
+    position: absolute; 
+}
+.txtright{
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    z-index: 9;
+}
+.txtright .abs{
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.box .page2 .rolebox{
+    position: relative;
+    float: right;
+    z-index: 1;
+}
+.box .page3 .rolebox{
+    position: relative;
+    float: left;
+    z-index: 1;
+}
+.box .page2 .lights{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.box .page2 .star{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.box .page3{
+    background: rgb(9, 190, 227);
+}
+.box .page3 .lights{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.box .page3 .star{
+    position: absolute;
+    left:0;
+    bottom: 0;
+}
+/* page4 */
+.box .page4{
+    background: rgb(54, 161, 92);
+}
+.box .page4 .role_dog{
+    position: relative;
+    z-index: 9;
+}
+.box .page4 .abs {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.box .page4 .btn_dog{
+    z-index: 9;
+}
+.box .page4 .lights_dog{
+    z-index: 9;
+}
+.box .page4 .lights_cat{
+    z-index: 9;
+}
+.box .page4 .btn_notice{
+        left:40%;
+        position: absolute;
+        width: 100%;
+        bottom: 50px;
+}
+.box .page4 .btn_notice .txt{
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    height: 61px;
+   
+}
+.box .page4 .btn_notice .you {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: block;
+}
+.box .pickme{
+    z-index: 66;
+}
+/* page5 */
+.box .page5{
+    background: rgb(102, 156, 255);
+}
+.box  .page5 .txt {
+    text-align: center;
+    padding: 14% 0 0;
+}
+.box .page5 .txt img{
+    margin: 0 auto;
+}
+.page5  .titles {
+    position: absolute;
+    top: 50%;
+}
+.page5  .abs {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* page6 */
+.box .page6{
+    background: white;
+    position: relative;   
+}
+.box .page6 .logo {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    z-index: 999;
+    margin: 0;
+}
+.box .page6 .txt {
+    font-size: 50px;
+    color: #669cff;
+    font-weight: bold;
+    margin:0 auto;
+    margin: 20% auto;
+}
+.box .page6 .txt img{
+    margin: 0 auto;
+}
+.box .page6 .searchbox {
+    border: solid 1px #959ba0;
+    overflow: hidden;
+    margin: 0 15%;
+    padding: 5px;
+    position: relative;
+}
+.box .page6 .keywords {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+.box .page6 .layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.box .page6 .btn_search {
+    background: url(../images/iconsZoom.png) 50% 50% no-repeat #669cff;
+    height: 100%;
+    width: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.box .page6 .btnbox {
+    position: absolute;
+    bottom: 12%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.box .page6 .btnbox a {
+    display: inline-block;
+    width: auto;
+    margin: 15px;
+}
+.box .page6 .btnbox>img{
+    margin: 0 auto;
+}
+
